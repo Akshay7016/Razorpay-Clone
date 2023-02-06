@@ -10,6 +10,12 @@
   <script src="https://unpkg.com/feather-icons@4.10.0/dist/feather.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
   <style>
     .newFeatureCard {
       box-shadow: 2px 4px 9px 1px hsl(0deg 0% 0% / 5%);
@@ -19,6 +25,10 @@
       background-size: 100% 100%;
       padding-top: 12rem;
       padding-bottom: 12rem;
+    }
+
+    .ctaSection {
+      background-size: 100% 100%;
     }
 
     .companiesList {
@@ -1048,7 +1058,7 @@
 
     <!-- Testimonial section -->
     <section class="relative">
-      <div class="relative max-w-[1200px] mx-auto py-20">
+      <div class="relative max-w-[1200px] mx-auto pt-20">
 
         <img src="./images/feature-section1-dottedrows.png" alt=""
           class="absolute w-[200px] top-[8rem] left-[2rem] -z-10" />
@@ -1104,6 +1114,53 @@
       </div>
     </section>
 
+    <!-- CTA -->
+    <section class="min-h-[510px] bg-[url(./images/CTABg.svg)] w-full bg-no-repeat bg-cover relative ctaSection">
+      <div class="max-w-[1000px] mx-auto relative flex items-center justify-between gap-20 pt-24">
+        <!-- left part -->
+        <div class="mt-7">
+          <h2 class="font-mullish font-bold text-2xl text-white">
+            Supercharge your business with Razorpay</h2>
+          <div class="w-6 h-1 bg-greenLight my-4"></div>
+          <p class="font-mullish text-white mt-2">Sign up now to experience the future of payments and offer <br> your
+            customers
+            the best checkout experience.</p>
+
+          <ul class="flex flex-wrap gap-3 text-white mt-8 w-[85%]">
+            <li class="flex gap-4">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>Quick Onboarding</span>
+            </li>
+
+            <li class="flex gap-4">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>Access to entire product suite</span>
+            </li>
+
+            <li class="flex gap-4">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>API access</span>
+            </li>
+
+            <li class="flex gap-4">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>24x7 support</span>
+            </li>
+          </ul>
+
+          <button class="min-w-[32px] mt-5 font-mullish text-sm font-bold bg-white text-lightBlue300 border
+          flex rounded-sm items-center hover:text-lightBlue500 transition-all duration-200 py-3 px-4">
+            Sign Up
+            <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+              <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- right part -->
+        <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-9">
+      </div>
+    </section>
   </div>
 
   <script>
