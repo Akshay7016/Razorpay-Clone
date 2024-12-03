@@ -234,7 +234,7 @@
         </div>
 
         <!-- 6 Cards section -->
-        <div class="w-full grid grid-cols-3 gap-8 mt-16">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
           <!-- Box-1 -->
           <div class="w-full min-h-[225px] relative cursor-pointer group">
             <img src="./images/payment-link-icon.svg" alt=""
@@ -543,9 +543,9 @@
         <!-- main feature box -->
         <div class="w-full flex flex-col relative mt-20">
           <img src="./images/x-flame-1.png" alt="" loading="lazy"
-            class="absolute -top-[142px] -left-[140px] w-[200px]" />
+            class="absolute -top-[142px] -left-[140px] w-[200px] hidden lg:flex" />
           <img src="./images/x-flame-2.png" alt="" loading="lazy"
-            class="absolute top-[150px] -right-[180px] w-[270px]" />
+            class="absolute top-[150px] -right-[180px] w-[270px] hidden lg:flex" />
 
           <!-- Content box -->
           <div
@@ -580,7 +580,7 @@
                 </li>
               </ul>
 
-              <div class="w-full flex items-center gap-6">
+              <div class="w-full flex flex-col md:flex-row items-center gap-6">
                 <!-- button -->
                 <button
                   class="w-[170px] relative bg-lightBlue flex items-center text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
@@ -607,11 +607,11 @@
 
             <!-- image for content box -->
             <img src="./images/buisness-banking.png" alt="" loading="lazy"
-              class="max-w-[560px] absolute right-0 bottom-0 object-cover" />
+              class="hidden md:flex md:max-w-[385px] lg:max-w-[560px] absolute right-0 bottom-4 lg:bottom-0 object-cover" />
           </div>
 
           <!-- Card box -->
-          <div class="w-full grid grid-cols-3 gap-8 mt-16">
+          <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <!-- Box 1 -->
             <div class="w-full min-h-[225px] relative cursor-pointer group">
               <img src="./images/current-icon.svg" alt=""
@@ -761,14 +761,15 @@
           </div>
 
           <!-- Demo box -->
-          <div class="w-full flex items-center justify-evenly border border-slate-700 py-8 my-16 rounded-md">
+          <div
+            class="w-full flex flex-col lg:flex-row items-center justify-evenly border border-slate-700 py-8 my-16 rounded-md">
             <p class="font-mullish text-white text-xl">
               Check out the live demo to learn how RazorpayX works.
               <span class="font-bold"> No sign-up required!</span>
             </p>
 
             <button
-              class="w-[260px] relative bg-lightBlue flex items-center text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+              class="w-[260px] relative mt-8 lg:mt-0 bg-lightBlue flex items-center text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
               Check out the demo
               <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex items-center justify-center">
                 <svg viewBox="0 0 24 24" focusable="false" class="w-[20px] h-[20px] -skew-x-[20deg]">
