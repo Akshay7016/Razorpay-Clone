@@ -786,11 +786,11 @@
     <section class="bg-white relative mt-10 mb-2">
       <div class="max-w-[1080px] mx-auto relative pt-4">
         <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy"
-          class="absolute w-[233px] left-[300px] -top-[6rem] z-10" />
+          class="absolute w-[233px] left-[300px] -top-[6rem] z-10 hidden md:flex" />
         <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy"
-          class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-10" />
+          class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-10 hidden md:flex" />
 
-        <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[100]">
+        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-y-10 gap-x-4 relative z-[100]">
           <!-- item 1 -->
           <div class="w-full">
             <h2 class="text-deepBlueHead font-mullish font-bold text-4xl leading-[3.375rem]">
@@ -918,7 +918,7 @@
         </p>
 
         <!-- grid -->
-        <div class="grid grid-cols-4 gap-[2rem] mt-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[2rem] mt-8">
           <!-- Card 1 -->
           <div class="w-full">
             <img src="./images/instant-activation-icon.svg" alt="" />
@@ -1045,7 +1045,7 @@
           </div>
 
           <!-- right part -->
-          <div class="w-[500px] relative overflow-y-hidden mr-20">
+          <div class="w-[500px] relative overflow-y-hidden mr-20 hidden md:flex">
             <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
               class="absolute w-full h-[150px] top-0 z-50"></div>
 
@@ -1059,7 +1059,7 @@
     </section>
 
     <!-- Testimonial section -->
-    <section class="relative">
+    <section class="relative hidden lg:block">
       <div class="relative max-w-[1200px] mx-auto pt-20">
 
         <img src="./images/feature-section1-dottedrows.png" alt=""
@@ -1117,7 +1117,8 @@
     </section>
 
     <!-- CTA -->
-    <section class="min-h-[510px] bg-[url(./images/CTABg.svg)] w-full bg-no-repeat bg-cover relative ctaSection">
+    <section
+      class="min-h-[510px] bg-[url(./images/CTABg.svg)] w-full bg-no-repeat bg-cover relative ctaSection hidden md:block">
       <div class="max-w-[1024px] mx-auto relative flex items-center justify-between gap-20 pt-24">
         <!-- left part -->
         <div class="mt-7">
@@ -1165,8 +1166,8 @@
     </section>
 
     <!-- footer -->
-    <footer style="background: linear-gradient(to right, #eef9fe, #edf7ff)" class="-mt-[400px]">
-      <div class="pt-[400px] pb-10 max-w-[1024px] mx-auto flex space-x-4 justify-between">
+    <footer style="background: linear-gradient(to right, #eef9fe, #edf7ff)" class="md:-mt-[400px]">
+      <div class="md:pt-[400px] pb-10 max-w-[1024px] mx-auto flex space-x-4 justify-between">
         <!-- column 1 -->
         <div class="flex flex-col max-w-[260px]">
           <img src="/images/logo-dark.svg" loading="lazy" width="120px" height="24px" />
@@ -1219,7 +1220,7 @@
         </div>
 
         <!-- column 2 - contains other 3 columns -->
-        <div class="flex space-x-4">
+        <div class="hidden md:flex space-x-4">
           <!-- sub column 1 -->
           <div class="space-y-3">
             <!-- banking plus -->
