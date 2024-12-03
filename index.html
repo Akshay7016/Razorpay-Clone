@@ -126,9 +126,9 @@
 
     <!-- Hero Section -->
     <section class="relative bg-deepBlue">
-      <div class="max-w-[1080px] flex justify-between items-center mx-auto">
+      <div class="max-w-[1080px] flex justify-between items-center mx-auto ">
         <!-- Left part -->
-        <div class="space-y-8">
+        <div class="space-y-8 pl-4">
           <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">
             Power your finance, grow your business
           </h1>
@@ -144,7 +144,7 @@
         </div>
 
         <!-- Right part -->
-        <img src="./images/hero-illustration.jpg" alt="" class="max-w-[680px]" />
+        <img src="./images/hero-illustration.jpg" alt="" class="md:max-w-[400px] lg:max-w-[680px] hidden md:flex" />
       </div>
 
       <!-- Shape part -->
@@ -156,10 +156,10 @@
     <!-- Feature Section-1 -->
     <section class="relative mt-[190px] overflow-hidden">
       <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233px" height="167px"
-        class="absolute -top-[8rem] left-[10rem]" />
+        class="absolute -top-[8rem] left-[10rem] hidden md:flex" />
 
       <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233px" height="167px"
-        class="absolute top-[3rem] right-0 rotate-180" />
+        class="absolute top-[3rem] right-0 rotate-180 hidden md:flex" />
 
       <!-- 1080px container -->
       <div class="relative max-w-[1080px] mx-auto pt-4">
@@ -171,10 +171,10 @@
         <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
         <!-- content box -->
-        <div class="w-full min-h-[520px] bg-white flex rounded-md relative py-10 px-12 border mt-20">
+        <div class="w-full min-h-[520px] bg-white flex rounded-md relative py-10 px-8 md:px-12 border mt-20">
           <!-- left section -->
           <div class="flex flex-col justify-between w-full">
-            <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
+            <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px] mb-6 md:mb-0">
               Supercharge your business with the all-powerful
               <span class="text-lightBlue">Payment Gateway</span>
             </h3>
@@ -207,7 +207,7 @@
             </ul>
 
             <!-- for button and hyperlink -->
-            <div class="flex items-center gap-6 pb-8">
+            <div class="flex flex-col md:flex-row items-center gap-6 pb-8 mt-6 md:mt-0">
               <!-- button -->
               <button
                 class="flex items-center bg-lightBlue w-fit text-white py-[14px] px-[20px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
@@ -229,7 +229,8 @@
           </div>
 
           <!-- image for content box -->
-          <img src="./images/payment-suite.png" alt="" class="max-w-[600px] min-h-[520px] absolute right-0 bottom-0" />
+          <img src="./images/payment-suite.png" alt=""
+            class="md:max-w-[450px] lg:max-w-[600px] md:min-h-[460px] lg:min-h-[520px] absolute right-0 bottom-0 hidden md:flex" />
         </div>
 
         <!-- 6 Cards section -->
